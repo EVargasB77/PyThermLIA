@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PyThermLIA
+Version: 1.0
+Summary: A lock-in Amplifier library that implement the fourier Method 
+Author-email: Eduardo Vargas B <odinyzeus@live.com.mx>
+Project-URL: Homepage, https://github.com/EVargasB77/PyThermLIA
+Project-URL: Issues, https://github.com/EVargasB77/PyThermLIA/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE

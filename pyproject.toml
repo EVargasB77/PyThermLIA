@@ -1,0 +1,18 @@
+[project]
+name = "PyThermLIA"
+version = "1.0"
+authors = [
+  { name="Eduardo Vargas B", email="odinyzeus@live.com.mx" },
+]
+description = "A lock-in Amplifier library that implement the fourier Method "
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/EVargasB77/PyThermLIA"
+Issues = "https://github.com/EVargasB77/PyThermLIA/issues"

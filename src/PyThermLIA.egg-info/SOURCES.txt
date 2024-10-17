@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/PyThermLIA/PyThermLIA.py
+src/PyThermLIA/__init__.py
+src/PyThermLIA/setup.py
+src/PyThermLIA.egg-info/PKG-INFO
+src/PyThermLIA.egg-info/SOURCES.txt
+src/PyThermLIA.egg-info/dependency_links.txt
+src/PyThermLIA.egg-info/top_level.txt
