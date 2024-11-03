@@ -133,6 +133,11 @@ class Method_Fourier(object):
     
         self._count += 1
 
+    def Export2Mat(self):
+        savemat('Phase.mat', {'Phase': self.Phase})
+        savemat('Amplitude.mat', {'Amplitude': self.Amplitude})
+
+
     def __init__(self, frequency :float = 0.1, fps: int =30, total_frames: int = 0):
         """
         Class constructor.
@@ -257,7 +262,8 @@ if __name__ == '__main__':
     v.Initial_Frame = 3000
     v.Fourier.Modulation = 0.3
     v.process()
-    print(v.Fourier.Amplitude)
-c    # f.process_video('AISI304.avi',500)
+    v.Fourier.Export2Mat()
+
+    # f.process_video('AISI304.avi',500)
     # print(f.Amplitude)
 
