@@ -48,5 +48,20 @@ Additional Notes:
     Consider error handling for video loading or file operations.
     Include an example notebook or script demonstrating usage if applicable.
 
-Example: 
+Example:
+    import os
+    # f = Method_Fourier(0.3,24,7000)  this line proces just a image only
+    """
+    These lines process an entire video obtained from an avi type file.
+    """
+    v = Video()
+    v.File = 'AISI304.avi'
+    v.Final_Frame = 8000
+    v.Initial_Frame = 3000
+    v.Fourier.Modulation = 0.3
+    v.process()
+    v.Fourier.Export2Mat()  # This line allow to export the lock-in results to Matlab Files
+
+    # f.process_video('AISI304.avi',500)
+    # print(f.Amplitude)
 
