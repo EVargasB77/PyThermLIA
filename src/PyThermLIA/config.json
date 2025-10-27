@@ -1,0 +1,19 @@
+{
+  "io_settings": {
+    "video_file": "AISI304.avi",
+    "amplitude_output_file": "Amplitude.mat",
+    "phase_output_file": "Phase.mat"
+  },
+  "video_processing": {
+    "mode": "TOP_HALF",
+    "pipeline": [
+      "MEDIAN_BLUR",
+      "CLAHE"
+    ]
+  },
+  "lockin_analysis": {
+    "start_frame": 3000,
+    "end_frame": 8000,
+    "modulation_freq": 0.3
+  }
+}
